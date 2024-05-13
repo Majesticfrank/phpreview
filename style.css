@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    background-color: antiquewhite;
+}
+.btn{
+    border: solid white 4px;
+    background-color: rgb(0, 145, 255);
+    font-size: 1.3em;
+    color: aliceblue;
+}
+.student-form{
+    width: 700px;
+    height: 350px;
+    background-color:whitesmoke;
+     visibility: hidden;
+}
+
+.close{
+    font: 1.7em ;
+    position:absolute;
+    left: 700px;
+}
+.student-form h3{
+    text-align: center;
+    color:rgb(0, 94, 255);
+    font-weight: 800;
+}
+
+#first_name{
+    margin-top: 40px;
+}
+input{
+    width: 97%;
+    margin: 10px 12px;
+    margin-top: 20PX;
+    border: solid  rgb(0, 145, 255) 2px;
+    border-radius: 5px;
+}
+hr{
+    border: 2px solid  rgb(0, 145, 255) 2px;
+    position: relative;
+    top: 30px;
+
+}
+.btn1{
+    width: 150px;
+    height: 30px;
+    position: relative;
+    top: 40px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: rgb(0, 94, 255) ;
+    color: white;
+    font-weight: 700;
+    font: 1.3em;
+}
